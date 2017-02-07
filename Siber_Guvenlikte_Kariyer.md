@@ -36,32 +36,30 @@
 
 ## Okunası Kitaplar 
 Security Engineering, Ross J, Anderson 
-http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470068523.html
+http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470068523.html <br />
 
 TCP/IP Illustrated, Vol. 1: The Protocols (Addison-Wesley Professional Computing Series)
-https://www.amazon.com/TCP-Illustrated-Vol-Addison-Wesley-Professional/dp/0201633469
+https://www.amazon.com/TCP-Illustrated-Vol-Addison-Wesley-Professional/dp/0201633469 <br />
 
 Okunası Kitaplar Listesi: 
-https://docs.google.com/spreadsheets/d/1srKh_k57iIsX_rsqCY73ytZPc-9CFAG-eXiBpwHrI5M/edit?usp=sharing
-http://www.darkreading.com/careers-and-people/8-books-security-pros-should-read/d/d-id/1327524
+https://docs.google.com/spreadsheets/d/1srKh_k57iIsX_rsqCY73ytZPc-9CFAG-eXiBpwHrI5M/edit?usp=sharing  <br />
+http://www.darkreading.com/careers-and-people/8-books-security-pros-should-read/d/d-id/1327524  <br />
 
 
 
 ## Genel Kariyer Tavsiyeleri
 
-http://www.catb.org/esr/faqs/hacker-howto.html
-https://danielmiessler.com/blog/build-successful-infosec-career/#gs.phyQhps
-https://safeandsavvy.f-secure.com/2017/02/03/a-hacker-hunters-advice-for-getting-into-infosec/
+http://www.catb.org/esr/faqs/hacker-howto.html <br />
+https://danielmiessler.com/blog/build-successful-infosec-career/#gs.phyQhps <br />
+https://safeandsavvy.f-secure.com/2017/02/03/a-hacker-hunters-advice-for-getting-into-infosec/ <br />
 http://www.techlearning.com/blogentry/11284 <br />
-https://zeltser.com/digital-forensics-and-infosec-career-advice-from-across/
-https://zeltser.com/deliberate-practice-for-security-skills/
-https://www.corelan.be/index.php/2015/10/13/how-to-become-a-pentester/
-https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/
+https://zeltser.com/digital-forensics-and-infosec-career-advice-from-across/ <br />
+https://zeltser.com/deliberate-practice-for-security-skills/ <br />
+https://www.corelan.be/index.php/2015/10/13/how-to-become-a-pentester/ <br />
+https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/ <br />
 https://tisiphone.net/2015/11/08/starting-an-infosec-career-the-megamix-chapters-4-5/
 https://tisiphone.net/2016/02/10/starting-an-infosec-career-the-megamix-chapter-6/
 https://github.com/jwasham/google-interview-university
-
-
 
 ## Referans Listeler, Siteler  
 
