@@ -41,7 +41,7 @@ http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470068523.html <br />
 TCP/IP Illustrated, Vol. 1: The Protocols (Addison-Wesley Professional Computing Series)
 https://www.amazon.com/TCP-Illustrated-Vol-Addison-Wesley-Professional/dp/0201633469 <br />
 
-Okunası Kitaplar Listesi: 
+Okunası Kitaplar Listesi: <br />
 https://docs.google.com/spreadsheets/d/1srKh_k57iIsX_rsqCY73ytZPc-9CFAG-eXiBpwHrI5M/edit?usp=sharing  <br />
 http://www.darkreading.com/careers-and-people/8-books-security-pros-should-read/d/d-id/1327524  <br />
 
@@ -63,19 +63,19 @@ https://github.com/jwasham/google-interview-university
 
 ## Referans Listeler, Siteler  
 
-https://github.com/bahtiyarb-torba/Awesome-Hacking
-https://github.com/Hack-with-Github/Awesome-Hacking
-https://github.com/sindresorhus/awesome
-https://github.com/paragonie/awesome-appsec
-https://github.com/sbilly/awesome-security
-https://github.com/apsdehal/awesome-ctf
-https://github.com/rshipp/awesome-malware-analysis
-https://github.com/ashishb/android-security-awesome
-https://github.com/carpedm20/awesome-hacking
-https://github.com/paralax/awesome-honeypots
-https://github.com/meirwah/awesome-incident-response
-https://github.com/jaredthecoder/awesome-vehicle-security
-https://github.com/enaqx/awesome-pentest
-https://github.com/bahtiyarb-torba/pentest-bookmarks/blob/master/wiki/BookmarksList.wiki
-http://kali.pwnwiki.io/#!index.md
-http://www.cezerisga.com/
+https://github.com/bahtiyarb-torba/Awesome-Hacking <br />
+https://github.com/Hack-with-Github/Awesome-Hacking <br />
+https://github.com/sindresorhus/awesome <br />
+https://github.com/paragonie/awesome-appsec <br />
+https://github.com/sbilly/awesome-security <br />
+https://github.com/apsdehal/awesome-ctf <br />
+https://github.com/rshipp/awesome-malware-analysis <br />
+https://github.com/ashishb/android-security-awesome <br />
+https://github.com/carpedm20/awesome-hacking <br />
+https://github.com/paralax/awesome-honeypots <br />
+https://github.com/meirwah/awesome-incident-response <br />
+https://github.com/jaredthecoder/awesome-vehicle-security <br />
+https://github.com/enaqx/awesome-pentest <br />
+https://github.com/bahtiyarb-torba/pentest-bookmarks/blob/master/wiki/BookmarksList.wiki <br />
+http://kali.pwnwiki.io/#!index.md <br />
+http://www.cezerisga.com/ <br />
