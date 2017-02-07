@@ -52,7 +52,7 @@ http://www.darkreading.com/careers-and-people/8-books-security-pros-should-read/
 http://www.catb.org/esr/faqs/hacker-howto.html
 https://danielmiessler.com/blog/build-successful-infosec-career/#gs.phyQhps
 https://safeandsavvy.f-secure.com/2017/02/03/a-hacker-hunters-advice-for-getting-into-infosec/
-http://www.techlearning.com/blogentry/11284
+http://www.techlearning.com/blogentry/11284 <br />
 https://zeltser.com/digital-forensics-and-infosec-career-advice-from-across/
 https://zeltser.com/deliberate-practice-for-security-skills/
 https://www.corelan.be/index.php/2015/10/13/how-to-become-a-pentester/
