@@ -17,7 +17,7 @@
 	https://hackingwars.online
 
 
-Konferanslar 
+## Konferanslar 
 	Hacktrick
 	Nopcon
 	ISC Turkey 
@@ -34,7 +34,7 @@ Konferanslar
 
 
 
-Okunası Kitaplar 
+## Okunası Kitaplar 
 Security Engineering, Ross J, Anderson 
 http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470068523.html
 
@@ -47,7 +47,7 @@ http://www.darkreading.com/careers-and-people/8-books-security-pros-should-read/
 
 
 
-Genel Kariyer Tavsiyeleri
+## Genel Kariyer Tavsiyeleri
 
 http://www.catb.org/esr/faqs/hacker-howto.html
 https://danielmiessler.com/blog/build-successful-infosec-career/#gs.phyQhps
@@ -63,8 +63,8 @@ https://github.com/jwasham/google-interview-university
 
 
 
+## Referans Listeler, Siteler  
 
-Awesome Listeler 
 https://github.com/bahtiyarb-torba/Awesome-Hacking
 https://github.com/Hack-with-Github/Awesome-Hacking
 https://github.com/sindresorhus/awesome
