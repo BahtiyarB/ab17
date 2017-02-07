@@ -35,15 +35,15 @@
 
 
 ## Okunası Kitaplar 
-Security Engineering, Ross J, Anderson 
+- Security Engineering, Ross J, Anderson 
 http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470068523.html <br />
 
-TCP/IP Illustrated, Vol. 1: The Protocols (Addison-Wesley Professional Computing Series)
+- TCP/IP Illustrated, Vol. 1: The Protocols (Addison-Wesley Professional Computing Series)
 https://www.amazon.com/TCP-Illustrated-Vol-Addison-Wesley-Professional/dp/0201633469 <br />
 
-Okunası Kitaplar Listesi: <br />
-https://docs.google.com/spreadsheets/d/1srKh_k57iIsX_rsqCY73ytZPc-9CFAG-eXiBpwHrI5M/edit?usp=sharing  <br />
-http://www.darkreading.com/careers-and-people/8-books-security-pros-should-read/d/d-id/1327524  <br />
+- Okunası Kitaplar Listesi: <br />
+-- https://docs.google.com/spreadsheets/d/1srKh_k57iIsX_rsqCY73ytZPc-9CFAG-eXiBpwHrI5M/edit?usp=sharing  <br />
+-- http://www.darkreading.com/careers-and-people/8-books-security-pros-should-read/d/d-id/1327524  <br />
 
 
 
