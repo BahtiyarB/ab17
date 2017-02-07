@@ -1,0 +1,14 @@
+github.com/bahtiyarb/ab17
+
+
+
+5:34:28.203176 IP 172.16.189.1.60176 > 172.16.189.189.22: Flags [P.], seq 3997:4033, ack 6145088, win 4096, options [nop,nop,TS val 700296431 ecr 11904885], length 36
+
+tcpdump -n -i eth0
+tcpdump -n -i eth0 host 172.16.189.188
+tcpdump -n -i eth0 host 172.16.189.188 and icmp 
+-n -i eth0 dst host 172.16.189.188 and icmptcpdump -n -i eth0 -w d1.pcap
+tcpdump -n -r d1.pcap 
+
+-n -i eth0 host 172.16.189.188 -w tarama.pcap
+nmap -n -p1-100 172.16.189.188 -r

