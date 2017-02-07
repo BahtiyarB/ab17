@@ -1,1 +1,1 @@
-# Akademik Bilişim 2017 kapsamında verilen Siber Saldırı ve Savunma Atölyesi dersine ait dosyalar
+# AB17 Siber Saldırı ve Savunma Atölyesi dersi dosyaları
