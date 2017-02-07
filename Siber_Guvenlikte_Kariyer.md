@@ -1,10 +1,6 @@
 # Siber Güvenlikte Kariyer için Tavsiyeler, Referanslar
 
-Kariyer 
-
-
-
-Siteler 
+## Siteler 
 	Sans reading room (https://www.sans.org/reading-room)
 	Cybrary (https://www.cybrary.it/)
 	Udemy (https://www.udemy.com/)
@@ -13,7 +9,7 @@ Siteler
 
 
 
-Yarışmalar 
+## Yarışmalar 
 
 	http://www.gameofpwners.com/
 	https://ctftime.org/
