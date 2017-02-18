@@ -79,3 +79,5 @@ https://github.com/enaqx/awesome-pentest <br />
 https://github.com/bahtiyarb-torba/pentest-bookmarks/blob/master/wiki/BookmarksList.wiki <br />
 http://kali.pwnwiki.io/#!index.md <br />
 http://www.cezerisga.com/ <br />
+https://github.com/danielmiessler/SecLists <br />
+
